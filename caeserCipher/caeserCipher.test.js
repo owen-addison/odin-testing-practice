@@ -1,4 +1,4 @@
-import caesarCipher from "./caesarCipher";
+import caesarCipher from "./caeserCipher";
 
 test("shifts characters by a given factor", () => {
   expect(caesarCipher("abc", 1)).toBe("bcd");
